@@ -1,21 +1,45 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<!-- preliminary template, to be replaced with individual components in due time -->
+<div>
   <h1>
-    Welcome to {{ title }}!
+    Navbar
   </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div>
+  <h2>
+    banner
+  </h2>
+  <!-- these components are inside the banner -->
+  <p>
+    Picture
+    Name
+  </p>
+  <ul>
+    <li>link to profile card (containing links to other sites)</li>
+    <li>link to contact</li>
+    <li>link to resume</li>
+  </ul>
+</div>
+<div>
+  <h3>
+    About me
+  </h3>
+</div>
+<div>
+  <h4>
+    Education,
+    Experience,
+    Skills
+  </h4>
+  (maybe on different route)
+</div>
+<div>
+  <h5>
+    Portfolio section
+  </h5>
+  this section is on different route (accesible through navbar)
+  <p>
+    include projects in cards, similar to https://ritwickdey.github.io/#!/portfolio
+  </p>
+</div>
 
 <router-outlet></router-outlet>
