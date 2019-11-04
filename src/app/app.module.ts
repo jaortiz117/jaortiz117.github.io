@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LandingComponent } from './landing/landing.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ResumePopupComponent } from './landing/resume-popup/resume-popup.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     NavbarComponent,
     LandingComponent,
     AboutComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    ResumePopupComponent
   ],
   imports: [
     BrowserModule,

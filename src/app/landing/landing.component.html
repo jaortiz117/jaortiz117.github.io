@@ -6,6 +6,7 @@
         <p class="lead">Student | Software Engineer</p>
         <hr class="my-4">
         <a class="btn btn-primary btn-lg" href="/about" role="button">Learn more about me!</a>
+        <a (click)="showResume()" class="btn btn-warning btn-lg" role="button" id="resume-btn"><img class="icon-resume" src="..\..\assets\icons\file-regular.svg"/>See my Resume</a>
 
         <div class="float-right">
           <a class="btn" role="button" href="https://github.com/jaortiz117"> <img class="icon-link" src="..\..\assets\icons\github.svg" /></a>
@@ -19,11 +20,15 @@
     </div>
   </div>
 </div>
-<!-- TODO add profile pic to banner -->
 <div>
-  <!-- these components are inside the banner -->
   <ul>
-    <li>link to resume</li>
+    <li>TODO link to resume (inside banner)</li>
     <li>contact me section</li>
   </ul>
 </div>
+<ng-container *ngIf="show">
+  <div id="popup">
+    <a (click)="hideResume()" class="btn btn-secondary" id="resume-close-btn" role="button">Close Resume</a>
+    <app-resume-popup></app-resume-popup>
+  </div>
+</ng-container>

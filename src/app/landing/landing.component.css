@@ -8,10 +8,45 @@
   width: 24px;
 }
 
+.icon-resume{
+  margin-right: 0.5vw;
+  height: 24px;
+  width: 24px;
+}
+
 .profile-pic{
   box-shadow: 3px 3px;
   border:1px solid #ced9eb;
   height: 15vw;
   /* width: 15vw; */
   border-radius: 50%;
+}
+
+#popup{
+  position: fixed;
+ /* Sit on top of the page content */
+ /* display: none; */
+ /* Hidden by default */
+ width: 100%;
+ /* half width (cover the whole page) */
+ height: 100%;
+ /* Full height (cover the whole page) */
+ top: 0;
+ left: 0;
+ background-color: rgba(0, 0, 0, 0.5);
+ /* Black background with opacity */
+
+}
+
+#resume-close-btn{
+  width: 20vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+#resume-btn{
+  margin-left: 1vw;
+  color: black;
 }
