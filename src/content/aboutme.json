@@ -1,0 +1,55 @@
+{
+	"bio":"faucibus a pellentesque sit amet porttitor eget dolor morbi non arcu risus quis varius quam quisque id diam vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec",
+	"education":[
+		{
+			"university":"UPRM",
+			"location":"Maya",
+			"major":"INSO",
+			"minor":"ADEM",
+			"gpa":"3.81",
+			"graduation":"May 2021"
+		}
+	],
+	"experience":[
+		{
+			"employer":"corp",
+			"city":"city",
+			"state":"state",
+			"role":"role",
+			"fromDate":"date1",
+			"toDate":"date2",
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium lectus quam id leo in vitae turpis. Faucibus a pellentesque sit amet."
+		},
+		{
+			"employer":"corp2",
+			"city":"city",
+			"state":"state",
+			"role":"role",
+			"fromDate":"date1",
+			"toDate":"date2",
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium lectus quam id leo in vitae turpis. Faucibus a pellentesque sit amet."
+		}
+	],
+	"skills":{
+		"languages":[
+			{ 
+				"logo":"logo_route1",
+				"link":"link to website"
+			},
+			{
+				"logo":"logo_route2",
+				"link":"link to website"
+			}
+		],
+		"frameworks":[
+			{
+				"logo":"flogo_route1",
+				"link":"link to website"
+			},
+			{
+				"logo":"flogo_route2",
+				"link":"link to website"
+			}
+		]
+	}
+}
