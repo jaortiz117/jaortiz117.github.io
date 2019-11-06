@@ -1,14 +1,25 @@
 .bio{
-  margin-right: 10vw;
+  width: 100%;
+  margin-right: 10px;
   margin-top: 1vw;
   -webkit-transition:all linear 0.5s;
   transition:all linear 0.5s;
 }
 
+.jumbotron{
+  margin-bottom: 0;
+}
+
 .avatar{
   box-shadow: 3px 3px;
   border:1px solid #ced9eb;
-  height: 20vw;
+  height: 15vw;
   /* width: 15vw; */
   border-radius: 50%;
+}
+
+.page-content{
+  background-color: #393f4d;
+  padding: 4rem 2rem;
+  height: 100%;
 }
