@@ -4,3 +4,11 @@
   -webkit-transition:all linear 0.5s;
   transition:all linear 0.5s;
 }
+
+.avatar{
+  box-shadow: 3px 3px;
+  border:1px solid #ced9eb;
+  height: 20vw;
+  /* width: 15vw; */
+  border-radius: 50%;
+}
