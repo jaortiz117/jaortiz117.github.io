@@ -1,3 +1,12 @@
+.jumbotron{
+  height:100vh;
+}
+
+.container{
+  position: relative;
+  top: 40%;
+  transform: translateY(-40%);
+}
 .icon-link{
   height: 24px;
   width: 24px;
@@ -19,17 +28,17 @@
 
 #popup{
   position: fixed;
- /* Sit on top of the page content */
- /* display: none; */
- /* Hidden by default */
- width: 100%;
- /* half width (cover the whole page) */
- height: 100%;
- /* Full height (cover the whole page) */
- top: 0;
- left: 0;
- background-color: rgba(0, 0, 0, 0.5);
- /* Black background with opacity */
+  /* Sit on top of the page content */
+  /* display: none; */
+  /* Hidden by default */
+  width: 100%;
+  /* half width (cover the whole page) */
+  height: 100%;
+  /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black background with opacity */
 
 }
 

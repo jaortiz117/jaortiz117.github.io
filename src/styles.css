@@ -3,11 +3,16 @@
 
 body {
  background-image: url("./assets/ai-artificial-intelligence-blur-546819.jpg");
- /* background-color: #cccccc; */
+ color: #cccccc;
  /* background-image: linear-gradient(to bottom right, white, #7abdd5); */
+ margin-left: 10%;
+ margin-right: 10%;
 }
 
 .jumbotron{
    background-color: #cccccc;
    height: auto;
+   /* margin-left: 10%;
+   margin-right: 10%; */
+   color:black;
 }
