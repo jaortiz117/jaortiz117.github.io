@@ -2,37 +2,60 @@
 	"bio":"faucibus a pellentesque sit amet porttitor eget dolor morbi non arcu risus quis varius quam quisque id diam vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec",
 	"education":[
 		{
-			"university":"UPRM",
-			"location":"Maya",
-			"major":"INSO",
-			"minor":"ADEM",
-			"gpa":"3.81",
+			"university":"University of Puerto Rico, Mayagüez",
+			"logo": "https://www.uprm.edu/uprmcaep/wp-content/uploads/sites/88/2016/11/logo-uprm.png",
+			"location":"Mayagüez, PR",
+			"major":"Software Engineering",
+			"minor":"Project Management",
+			"gpa":"3.81 out of 4.00",
 			"graduation":"May 2021"
 		}
 	],
 	"experience":[
 		{
-			"employer":"corp",
-			"city":"city",
-			"state":"state",
-			"role":"role",
-			"fromDate":"date1",
-			"toDate":"date2",
-			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium lectus quam id leo in vitae turpis. Faucibus a pellentesque sit amet."
+			"employer":"Chevron Corp.",
+			"logo": "https://purepng.com/public/uploads/large/purepng.com-chevron-logologobrand-logoiconslogos-251519938945o1hd7.png",
+			"city":"San Ramon",
+			"state":"CA",
+			"role":"Software Engineer Intern",
+			"fromDate":"May 2019",
+			"toDate":"August 2019",
+			"description":"Added functionality for a validated assistance employee to securely edit a users information when requested within Chevron Business Point eCommerce platform. Edited SAP hybris extensions using the Java programming language and the Spring framework to achieve this functionality."
 		},
 		{
-			"employer":"corp2",
-			"city":"city",
-			"state":"state",
-			"role":"role",
-			"fromDate":"date1",
-			"toDate":"date2",
-			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium lectus quam id leo in vitae turpis. Faucibus a pellentesque sit amet."
+			"employer":"MedWave Care",
+			"logo": "https://medwave-static.s3.amazonaws.com/static/photo/2x/Asset7_2x.png",
+			"city":"Rio Piedras",
+			"state":"PR",
+			"role":"Full Stack Development Intern",
+			"fromDate":"June 2018",
+			"toDate":"July 2018",
+			"description":"Implemented a responsive doctor dashboard, where a user can contact patients, view information or have a video call with them. Used React, Django and SQL to create a REST API to manage data between front-end and back-end and achieved a working dashboard to be used on production."
+		},
+		{
+			"employer":"Moonbuggy Engineering Team",
+			"logo": "https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/37948195_1060292744132991_1439593692393373696_n.png?_nc_cat=108&_nc_oc=AQmOp9fNdlzNgEqKwS0qTAOWqpiUx6VXtDgZeZcOEb9h0IdeNCv7a8M_3cG_Pq-GIoY&_nc_ht=scontent-mia3-1.xx&oh=021b844d394fbd5520742942dd6afe07&oe=5E49EB6B",
+			"city":"Mayagüez",
+			"state":"PR",
+			"role":"Telemetry Leader",
+			"fromDate":"January 2017",
+			"toDate":"Present",
+			"description":"Lead the design and implementation of a web based data gathering system. Using a server-side NodeJS application to request data from an SQL database on a Raspberry Pi, also using the Angular framework to create a user-friendly UI, achieved a data telemetry system used in the NASA Human Exploration Rover Challenge."
+		},
+		{
+			"employer":"Puerto Rico Robotics Association",
+			"logo": "https://challenges.robotevents.com/uploads/0011057_original.png",
+			"city":"Mayagüez",
+			"state":"PR",
+			"role":"Programmng Team Leader",
+			"fromDate":"May 2018",
+			"toDate":"Present",
+			"description":"Created an autonomous robotic system for the Vex International Robotics Competition. Using C and skills such as PID and sensor data analysis, created an autonomous competition robot that can detect objects around it and move to specific locations."
 		}
 	],
 	"skills":{
 		"languages":[
-			{ 
+			{
 				"logo":"logo_route1",
 				"link":"link to website"
 			},

@@ -26,6 +26,51 @@
   </div>
 </div>
 <div class="page-content">
+  <div id="experience">
+    <h2>Work and Project Experience</h2>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div *ngFor="let experience of content.experience" class="col">
+          <div class="card bg-light" style="width: 20rem;">
+            <img class="card-img-top card-logo"  src="{{experience.logo}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{experience.employer}}</h5>
+              <ul class="card-text list-group list-group-flush">
+                <li class="list-group-item">{{experience.city}}, {{experience.state}}</li>
+                <li class="list-group-item">Role: {{experience.role}}</li>
+                <li class="list-group-item">Start date: {{experience.fromDate}}</li>
+                <li class="list-group-item">End date: {{experience.toDate}}</li>
+                <li class="list-group-item">{{experience.description}}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="education">
+    <h2>Education</h2>
+    <div class="container">
+      <!-- if education list grows use ngFor -->
+      <div class="row justify-content-center">
+        <div class="col">
+          <div class="card bg-light" style="width: 20rem;">
+            <img class="card-img-top card-logo"  src="{{content.education[0].logo}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{content.education[0].university}}</h5>
+              <ul class="card-text list-group list-group-flush">
+                <li class="list-group-item">{{content.education[0].location}}</li>
+                <li class="list-group-item">Major: {{content.education[0].major}}</li>
+                <li class="list-group-item">Minor: {{content.education[0].minor}}</li>
+                <li class="list-group-item">GPA: {{content.education[0].gpa}}</li>
+                <li class="list-group-item">Graduation date: {{content.education[0].graduation}}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div>
     <h3>
       About me (all is fed from json)
@@ -33,9 +78,7 @@
   </div>
   <div>
     <h4>
-      Experience,
       Skills (show like a carousel of logos)(also add link on bottom of carousel to see examples [links to my repos]),
-      Education
     </h4>
     <ul>
       On separate Routes

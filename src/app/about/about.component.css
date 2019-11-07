@@ -23,3 +23,15 @@
   padding: 4rem 2rem;
   height: 100%;
 }
+
+.card{
+  color: #393f4d;
+  margin: 0 auto;
+}
+
+.card-logo{
+  height: 15rem;
+  width: 15rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
