@@ -56,20 +56,24 @@
 	"skills":{
 		"languages":[
 			{
-				"logo":"logo_route1",
-				"link":"link to website"
+				"name": "Java",
+				"logo":"https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
+				"link":"https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"
 			},
 			{
-				"logo":"logo_route2",
-				"link":"link to website"
+				"name": "Python",
+				"logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png",
+				"link":"https://www.python.org/"
 			}
 		],
 		"frameworks":[
 			{
+				"name": "Java",
 				"logo":"flogo_route1",
 				"link":"link to website"
 			},
 			{
+				"name": "Java",
 				"logo":"flogo_route2",
 				"link":"link to website"
 			}
