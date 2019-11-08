@@ -51,11 +51,17 @@
   height:5rem;
 }
 
-.skills-row{
-  height: 20rem;
+.skills-col{
   margin: 0 auto;
+  display: inline-block;
+  float: none;
+  margin-bottom: 1rem;
 }
 
+.skill-row{
+  overflow-x: auto;
+  /* flex-wrap: nowrap; uncomment to have scroll*/
+}
 .skill-title{
   text-align: center;
 }
