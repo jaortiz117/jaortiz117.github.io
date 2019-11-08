@@ -88,14 +88,39 @@
 		],
 		"frameworks":[
 			{
-				"name": "Java",
-				"logo":"flogo_route1",
-				"link":"link to website"
+				"name": "Angular",
+				"logo":"https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg",
+				"link":"https://angular.io/"
 			},
 			{
-				"name": "Java",
-				"logo":"flogo_route2",
-				"link":"link to website"
+				"name": "React",
+				"logo":"https://cdn.worldvectorlogo.com/logos/react.svg",
+				"link":"https://reactjs.org/"
+			},
+			{
+				"name": "Node JS",
+				"logo":"https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png",
+				"link":"https://nodejs.org/en/"
+			},
+			{
+				"name": "Django",
+				"logo":"https://www.djangoproject.com/m/img/logos/django-logo-negative.png",
+				"link":"https://www.djangoproject.com/"
+			},
+			{
+				"name": "Flask",
+				"logo":"https://seeklogo.com/images/F/flask-logo-44C507ABB7-seeklogo.com.png",
+				"link":"https://flask.palletsprojects.com/en/1.1.x/"
+			},
+			{
+				"name": "Spring",
+				"logo":"https://middle.pngfans.com/20190713/ve/java-spring-logo-png-spring-framework-java-clipart-13a187e4d3bea5a8.jpg",
+				"link":"https://spring.io/"
+			},
+			{
+				"name": "SAP Hybris/Commerce",
+				"logo":"https://www.betterbuys.com/wp-content/uploads/2017/10/SAP-Hybris.png",
+				"link":"https://www.sap.com/products/crm/e-commerce-platforms.html"
 			}
 		]
 	}

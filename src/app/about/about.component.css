@@ -36,17 +36,19 @@
   margin-top: 1rem;
 }
 .card-logo-skill{
-  height: 5rem;
+  height: 85%;
   width: auto;
   margin: 0 auto;
   margin-top: 1rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
 }
 
 .skill-link{
   margin: auto;
+  height:5rem;
 }
 
 .skills-row{
