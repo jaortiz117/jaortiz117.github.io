@@ -28,13 +28,15 @@
 <div class="page-content">
   <div id="experience">
     <h2>Work and Project Experience</h2>
+    <p>Click on each to learn more.</p>
     <div class="container">
       <div class="row justify-content-center">
-        <div *ngFor="let experience of content.experience" class="col">
+        <div *ngFor="let experience of content.experience; index as i" class="col">
           <div class="card bg-light" style="width: 20rem;">
-            <img class="card-img-top card-logo"  src="{{experience.logo}}" alt="Card image cap">
+            <img (click)="toggleCard(i)" class="card-img-top card-logo"  src="{{experience.logo}}" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">{{experience.employer}}</h5>
+              <ng-container *ngIf="toggleShow[i]">
               <ul class="card-text list-group list-group-flush">
                 <li class="list-group-item">{{experience.city}}, {{experience.state}}</li>
                 <li class="list-group-item">Role: {{experience.role}}</li>
@@ -42,6 +44,7 @@
                 <li class="list-group-item">End date: {{experience.toDate}}</li>
                 <li class="list-group-item">{{experience.description}}</li>
               </ul>
+              </ng-container>
             </div>
           </div>
         </div>
@@ -70,11 +73,6 @@
         </div>
       </div>
     </div>
-  </div>
-  <div>
-    <h3>
-      About me (all is fed from json)
-    </h3>
   </div>
   <div>
     <h4>

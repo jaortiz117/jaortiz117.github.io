@@ -9,13 +9,19 @@ import pageContent from './../../content/aboutme.json'
 export class AboutComponent implements OnInit {
   public content:{name:string, code:string} = pageContent;
   public show:boolean = false;
+  public toggleShow :boolean[] = [];
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
 
   showBio(){
     this.show = !this.show;
+  }
+
+  toggleCard(index: number){
+    this.toggleShow[index] = !this.toggleShow[index];
   }
 }
