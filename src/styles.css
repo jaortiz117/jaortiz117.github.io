@@ -16,3 +16,9 @@ body {
    margin-right: 10%; */
    color:black;
 }
+
+.page-content{
+  background-color: #393f4d;
+  padding: 4rem 2rem;
+  height: 100%;
+}

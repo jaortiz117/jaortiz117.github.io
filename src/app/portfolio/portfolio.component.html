@@ -1,3 +1,21 @@
+<div class="page-content">
+  <h1 class="display-4">My Project Showcase.</h1>
+  <hr class="my-4">
+  <!-- we are only showing top rows of 3 -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div *ngFor="let repo of content" class="col-4">
+        <div class="card bg-light" style="width: 20rem;">
+          <div class="card-body">
+            <h5 class="card-title">{{repo.name}}</h5>
+            <p class="card-text">{{getDescription(repo.name)}}</p>
+            <a class="repo-btn btn btn-success" role="button" href="{{getLink(repo.name)}}">See Repo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div>
   <h5>
     Portfolio section
