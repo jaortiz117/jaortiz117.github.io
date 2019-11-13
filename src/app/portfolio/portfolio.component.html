@@ -8,8 +8,8 @@
         <div class="card bg-light" style="width: 20rem;">
           <div class="card-body">
             <h5 class="card-title">{{repo.name}}</h5>
-            <p class="card-text">{{getDescription(repo.name) | async}}</p>
-            <a class="repo-btn btn btn-success" role="button" href="{{getLink(repo.name) | async}}">See Repo</a>
+            <p class="card-text">{{getDescription(repo.name)}}</p>
+            <a class="repo-btn btn btn-success" role="button" href="{{getLink(repo.name)}}">See Repo</a>
           </div>
         </div>
       </div>

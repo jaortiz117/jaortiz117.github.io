@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { GhRepoService, RepoData } from './../gh-repo.service';
-import { Observable } from 'rxjs';
+import { Observable, Subscription } from 'rxjs';
 
 import pageContent from './../../content/repo-showcase.json'
 
@@ -9,27 +9,30 @@ import pageContent from './../../content/repo-showcase.json'
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.css']
 })
-export class PortfolioComponent implements OnInit {
+export class PortfolioComponent implements OnInit, OnDestroy {
   public content:{name:string, code:string} = pageContent;
   public repoData: RepoData[];
   public data: RepoData[];
 
+  private repoSub$: Subscription
   constructor(private _repoService: GhRepoService) {
 
   }
+  public ngOnInit(): void {
+    this.repoSub$ = this._repoService.getAllRepoData().subscribe((data: RepoData[]) => {
+      this.repoData = data;
+      // console.log('Retrieved lucky number ${this.number}, for subscriber ${this.subscribersCount}');
 
-  ngOnInit() {
-
-    // this.repoData$.subscribe(function(x){
-    //   x.forEach(e => {
-    //     this.data.push(e);
-    //   })
-    // });
+    });
   }
 
-  async getData(name: string){
+  public ngOnDestroy(): void {
+    this.repoSub$.unsubscribe();
+  }
+
+  getData(name: string){
     try {
-      this.repoData = await this._repoService.getAllRepoData().toPromise();
+      // this.repoData = await this._repoService.getAllRepoData().toPromise();
 
       let result: RepoData;
 
@@ -45,16 +48,16 @@ export class PortfolioComponent implements OnInit {
       return null;
     }
   }
-  async getDescription(name: string){
-    let result = await this.getData(name);
+  getDescription(name: string){
+    let result = this.getData(name);
     if(result){
       return result.description;
     }
     return "Github API is currently Busy and can't fetch a description";
   }
 
-  async getLink(name: string){
-    let result = await this.getData(name);
+  getLink(name: string){
+    let result = this.getData(name);
     if(result){
       return result.html_url;
     }
