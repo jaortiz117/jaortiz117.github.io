@@ -15,7 +15,10 @@ export class GhRepoService {
   constructor(private _http: HttpClient) { }
 
   getAllRepoData(): RepoData[] {
-    let data = this._http.get('https://api.github.com/users/jaortiz117/repos');
+    let data = [];
+    this._http.get('https://api.github.com/users/jaortiz117/repos').subscribe(function(x){
+      data = x;
+    });
     var result = data.map(function(datum){
       return <RepoData>{
         name: datum.name,
