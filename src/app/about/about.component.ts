@@ -7,7 +7,7 @@ import pageContent from './../../content/aboutme.json'
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  public content:{name:string, code:string} = pageContent;
+  public content:any = pageContent;
   public show:boolean = false;
   public toggleShow :boolean[] = [];
 
