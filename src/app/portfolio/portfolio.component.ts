@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GhRepoService, RepoData } from './../gh-repo.service';
 import pageContent from './../../content/repo-showcase.json'
 
 @Component({
@@ -8,10 +9,12 @@ import pageContent from './../../content/repo-showcase.json'
 })
 export class PortfolioComponent implements OnInit {
   public content:{name:string, code:string} = pageContent;
+  public repoData: RepoData[];
 
-  constructor() { }
+  constructor(private repoService: GhRepoService) { }
 
   ngOnInit() {
+    this.repoData = this.repoService.getAllRepoData();
   }
 
   getDescription(name: string){
