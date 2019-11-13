@@ -32,7 +32,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div *ngFor="let experience of content.experience; index as i" class="col">
-          <div class="card bg-light" style="width: 20rem;">
+          <div class="card bg-light">
             <img (click)="toggleCard(i)" class="card-img-top card-logo"  src="{{experience.logo}}" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">{{experience.employer}}</h5>
@@ -57,7 +57,7 @@
       <!-- if education list grows use ngFor -->
       <div class="row justify-content-center">
         <div class="col">
-          <div class="card bg-light" style="width: 20rem;">
+          <div class="card bg-light">
             <img class="card-img-top card-logo"  src="{{content.education[0].logo}}" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">{{content.education[0].university}}</h5>
