@@ -10,6 +10,9 @@
             <h5 class="card-title">{{repo.name}}</h5>
             <p class="card-text">{{getDescription(repo.name)}}</p>
             <a class="repo-btn btn btn-success" role="button" href="{{getLink(repo.name)}}">See Repo</a>
+            <div *ngIf="repo.home">
+              <a class="repo-btn btn btn-success" role="button" href="{{repo.home}}">See Home Page</a>
+            </div>
           </div>
         </div>
       </div>

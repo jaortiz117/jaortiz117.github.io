@@ -1,8 +1,10 @@
 [
   {"name": "Buggy7thGenTelemetry"},
-  {"name": "ViSe"},
+  {"name": "ViSe",
+  "home": "https://amandajanice.github.io/ViSe/"},
   {"name": "jaortiz117.github.io"},
   {"name": "icon-map"},
-  {"name": "CarDealer-API"},
-  {"name": "NodeJS-Angular-Server-example"}
+  {"name": "tweet-media-scraper",
+  "home": "https://tweet-media-scraper.herokuapp.com/"},
+  {"name": "PRRA-VexV5-RoboticsFramework"}
 ]

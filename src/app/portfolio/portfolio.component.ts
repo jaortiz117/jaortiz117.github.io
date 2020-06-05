@@ -53,7 +53,7 @@ export class PortfolioComponent implements OnInit, OnDestroy {
     if(result){
       return result.description;
     }
-    return "Github API is currently Busy and can't fetch a description";
+    return "Github API is currently Busy and can't fetch a description or the repository is private";
   }
 
   getLink(name: string){
