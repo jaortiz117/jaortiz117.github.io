@@ -1,10 +1,8 @@
 [
   {"name": "Buggy7thGenTelemetry"},
-  {"name": "ViSe",
-  "home": "https://amandajanice.github.io/ViSe/"},
+  {"name": "ViSe", "home": "https://amandajanice.github.io/ViSe/"},
   {"name": "jaortiz117.github.io"},
-  {"name": "icon-map"},
-  {"name": "tweet-media-scraper",
-  "home": "https://tweet-media-scraper.herokuapp.com/"},
+  {"name": "local-business-promotions", "home": "http://jaortiz117.pythonanywhere.com/"},
+  {"name": "tweet-media-scraper", "home": "https://tweet-media-scraper.herokuapp.com/"},
   {"name": "PRRA-VexV5-RoboticsFramework"}
 ]
