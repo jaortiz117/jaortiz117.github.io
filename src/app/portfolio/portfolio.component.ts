@@ -45,6 +45,7 @@ export class PortfolioComponent implements OnInit, OnDestroy {
       return result;
     }
     catch(err) {
+      console.log(err)
       return null;
     }
   }
