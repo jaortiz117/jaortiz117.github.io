@@ -45,7 +45,7 @@ export class PortfolioComponent implements OnInit, OnDestroy {
       return result;
     }
     catch(err) {
-      console.log(err)//fpr some reason this console log fixes the error so this is staying here
+      console.log(err)//for some reason this console log fixes the error so this is staying here
       return null;
     }
   }
