@@ -1,4 +1,7 @@
 # PortfolioApp
+My personal portfolio!!
+
+See the application: [Javier's Portfolio](https://jaortiz117.github.io/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
 
