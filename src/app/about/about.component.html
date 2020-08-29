@@ -33,7 +33,7 @@
       <div class="row justify-content-center">
         <div *ngFor="let experience of content.experience; index as i" class="col">
           <div class="card bg-light">
-            <img (click)="toggleCard(i)" class="card-img-top card-logo"  src="{{experience.logo}}" alt="Card image cap">
+            <img (click)="toggleCard(i)" class="card-img-top card-logo experience-logo"  src="{{experience.logo}}" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">{{experience.employer}}</h5>
               <ng-container *ngIf="toggleShow[i]">

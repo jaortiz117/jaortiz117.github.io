@@ -35,6 +35,11 @@
   margin: 0 auto;
   margin-top: 1rem;
 }
+
+.experience-logo{
+  cursor: pointer;
+}
+
 .card-logo-skill{
   height: 85%;
   width: auto;
