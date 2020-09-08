@@ -4,18 +4,11 @@
       <div class="col-8">
         <h1 class="display-4">About me.</h1>
         <hr class="my-4">
-        <div class="bio-btn">
-          <button (click)="showBio()" class="btn btn-primary" type="button">
-            Read my bio
-          </button>
-        </div>
-        <ng-container *ngIf="show">
           <div class="bio">
             <p class="card card-body">
               {{content.bio}}
             </p>
           </div>
-        </ng-container>
         <br />
         <a class="btn btn-primary" href="/portfolio" role="button">See my projects</a>
       </div>
