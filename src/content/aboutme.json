@@ -13,6 +13,16 @@
 	],
 	"experience":[
 		{
+			"employer":"JPMorgan Chase",
+			"logo": "https://images.squarespace-cdn.com/content/v1/54d7d9f3e4b0adb809875cd9/1427991323091-IRTLN4QVP7WDG4N573BQ/ke17ZwdGBToddI8pDm48kLKUPADYEnBSQyD_FqQ-TdQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2drmmirGIi5ahAiRtQji5Kd_MaMU2bpJkqxTN27FDdPP4MW9u6oXQZQicHHG1WEE6fg/01.jpg?format=2500w",
+			"city":"San Francisco",
+			"state":"CA",
+			"role":"Software Engineer Intern",
+			"fromDate":"June 2020",
+			"toDate":"August 2020",
+			"description":"Worked with Force for Good team along with Choices.org to virtualize in person workshops. Tech lead for application development of a Flask and React application."
+		},
+		{
 			"employer":"Chevron Corp.",
 			"logo": "https://purepng.com/public/uploads/large/purepng.com-chevron-logologobrand-logoiconslogos-251519938945o1hd7.png",
 			"city":"San Ramon",
